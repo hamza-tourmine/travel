@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -20,11 +20,11 @@ class UserSeeder extends Seeder
             'email_verified_at' => now(),
             'role' => 'ADM',
             'genre'=>'homme',
-            'telephone' => '0707294197',
+            'telephone' => '0636574555',
             'messageParAdmin'=>'You are admin (No message)',
             'hotel_id'=>null,
             'restaurant_id'=>null,
-            'password' => Hash::make('yacin@2003'),
+            'password' => Hash::make('hamzaAdmin'),
         ]);
     }
 }
